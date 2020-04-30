@@ -1,0 +1,18 @@
+[build-system]
+requires = ["flit_core >=2,<3"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "polygontagger"
+author = "Rick Teachey"
+author-email = "ricky@teachey.org"
+classifiers = ["License :: OSI Approved :: MIT License"]
+requires = [
+    "shapely",
+]
+
+[tool.flit.metadata.requires-extra]
+test = [
+    "pytest",
+    "pytest-runner",
+]
