@@ -4,7 +4,7 @@ A tool for tagging indexed objects based on shapely polygons.
 TODO: improve awful API.
 
 ```python
-from polygontagger.main import tag_shapes
+from polygontagger.main import PolygonIndexer
 
 # containers is a sequence of shapely objects to test for containment in
 
